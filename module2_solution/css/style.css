@@ -1,0 +1,73 @@
+
+h1 {
+    text-align: center;
+    color: gray;
+    
+}
+
+
+
+.section {
+    
+    background-color: rgba(157, 17, 17, 0.96);
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 30px 2px 5px 2px; 
+    margin: 5px;
+
+    
+}
+
+
+    .section-header {
+        box-sizing: border-box;
+        width: 161.1px;
+        height: -10px;
+        position: relative;
+        bottom: 61px;
+        left: 290px;
+        padding: 1px 1px 1px 1px; 
+        border: 1px solid black;
+        padding: 5px;
+        color: black;
+        text-align: center;
+        font-size: large;
+        background-color: white;
+        border-radius: 0px 0px 0 0;  
+    }
+        
+
+
+
+
+@media (min-width: 992px) {
+  
+     .section{
+        float: left;
+        width: 31%;  
+        
+       
+       
+    }  
+}
+  
+   
+
+@media (min-width: 768px ) and (max-width: 991.20px) {
+        .section {
+            float: left;
+            width: 45%;
+            
+        } 
+
+        #col-sm4 {
+            width: 92%;
+        }
+
+    }
+     
+    @media (max-width: 767px) {
+        .section {
+            width: 95%;
+        }
+    }
