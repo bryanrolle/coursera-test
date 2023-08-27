@@ -1,0 +1,2 @@
+helloSpeaker.sayHello();
+byeSpeaker.sayGoodbye();
