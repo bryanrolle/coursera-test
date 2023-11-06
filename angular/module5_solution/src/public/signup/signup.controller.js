@@ -20,7 +20,7 @@
             }
 
             MenuService.getFavoriteDish(vm.user.favoriteDish).then(function(response) {
-                vm.user.favoriteDishDetails = response.data;
+                vm.user.favoriteDish = response.data;
                 console.log(vm.favoriteDish);
                 MenuService.saveUser(vm.user);
                 vm.showMessage = true;
