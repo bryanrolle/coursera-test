@@ -1,0 +1,149 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Italianno', cursive;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: xx-large;
+    
+}
+
+li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
+
+div > img {
+    width: 100px;
+}
+
+footer > div > p {
+    display: flex;
+    justify-content: center;  
+}
+
+.copyright:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.welcome-text {
+    font-size: xx-large;
+    margin-top: 10px;
+}
+
+/* Img CSS */
+
+.necklace-img {
+    width: 350px;
+    margin-left: auto;
+    margin-left: auto;
+    border-radius: 100px;
+    border: 5px solid black;; 
+}
+
+
+.watch-img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 5px solid black;;  
+}
+
+
+.ring-img {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    border: 5px solid black;; 
+}
+
+/* P text CSS */
+
+.necklace-text {
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+span {
+    font-weight: 800;
+}
+
+.watches-text {
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 2rem;
+}
+
+.rings-text {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.footer-logo {
+    margin-top: 59px;
+}
+
+.copyright {
+    margin-top: 65px;
+    font-size: 1.2rem;
+}
